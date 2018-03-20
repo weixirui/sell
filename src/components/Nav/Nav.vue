@@ -29,7 +29,7 @@
 		display: flex;
 		width: 100%;
 		height: 40px;
-		line-height: 40px;
+		line-height:40px;
 	}
 	
 	.nav .nav-items{

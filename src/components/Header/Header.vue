@@ -1,12 +1,17 @@
 <template>
 	<div class="header">
-		tou
+		{{poiInfo.name}}
 	</div>
 </template>
 
 <script>
 	export default{
-		
+		props:{
+			poiInfo:{
+				type:Object,
+				default:{}
+			}
+		}
 	}
 </script>
 

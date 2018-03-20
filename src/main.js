@@ -6,10 +6,13 @@ import VueRouter from 'vue-router'
 import Goods from "./components/Goods/Goods"
 import Ratings from "./components/Ratings/Ratings"
 import Seller from "./components/Seller/Seller"
+import Axios from 'Axios'
 
 Vue.config.productionTip = false
 
 Vue.use(VueRouter);
+
+Vue.prototype.$axios=Axios;
 
 const routes = [
 	{
